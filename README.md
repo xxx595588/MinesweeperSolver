@@ -9,7 +9,8 @@ Here is the quick look of the project:
 Python 3.9 and C++ are required.
 
 ## Game Environment
-- There are 3 levels of world:
+- There are 4 levels of world by default in `WorldGenerator/Problems` (1000 worlds per level):
+  * `Easy`: 5x5 with 1 mine
   * `Beginner`: 8x8 with 10 mines
   * `Intermediate`: 16x16 with 40 mines
   * `Expert`: 16x30 with 99 mines
