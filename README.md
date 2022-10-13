@@ -112,3 +112,6 @@ The following data are plotted from 1000 tests per level
 
 ## Conclusion
 
+- The accuracy dropped rapidly in the `expert level`, the possible reason might be that as the world's size and number of mines increase, the chance we need to guess also increase. Our AI will calculate the probability of being a mines for every neighbor tile when there is no tile which is 100% safe. Therefore, we can improve the guess algorithm in the agent to a better guess when we have to.  
+
+- The running time didn't increase dramticly when the world is relevant small (5x5, 8x8, and 16x16), but in `expert level` the running time increased rapidly. The running time increase exponentially as the size of the world increase. The AI adopted recursively search algorithm and trim the redundant possible worlds in the tree. However, this algorithm seems not to be efficiently when the world's size increase.
