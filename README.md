@@ -1,5 +1,18 @@
 # MinesweeperSolver
+## Table of contents
+* [Introduction](#introduction)
+* [Requirement](#requirement)
+* [Game Environment](#game-environment)
+* [Create the World](#create-the-world)
+* [Shell Manual](#shell-manual)
+* [Performance](#performance)
+* [Conclusion](#conclusion)
+
+
+## Introduction
 Project for a class project of COMPSCI-171 Introduction to Artificial Intelligence at UC Irvine, Spring 2022.
+
+The AI agent will solve the given world automatically, and provide the result & related data to the user.
 
 Here is the quick look of the project:
 
@@ -27,7 +40,7 @@ Python 3.9 and C++ are required.
   * `Leave`: End the game immediately.
 
 
-## Create the world
+## Create the World
 The worlds can be manually created by the txt file in the following format:
 
 ```
