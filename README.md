@@ -66,3 +66,16 @@ Note: Arguments listed below must follow certain restrictions:
 * `numMines`: TThe minimum number of mines is 1
 * The The number of mines must be less than or equal to (rowDimension)*(colDimension) - 9
 
+
+## Shell Manual
+Issue the command after `make`:
+```
+[Name] [Options] [InputFile] [OutputFile]
+```
+- `Name`: The name is `./Minesweeper` if using cpp shell
+- `Options`: 
+  * `-d`: Debug mode, which will also display the game board after each move.
+  * `-v`: Verbose mode, which displays name of world files as they are loaded.
+  * `-f`: Depending on the InputFile format supplied, this operand will trigger program:
+    * Treats the InputFile as a folder containing many worlds. The program will then construct a world for every valid world file found. The program to display total score instead of a single score. The InputFile operand must be specified with this option
+    * Threats the inputFile as a file. The program will then construct a world for a single valid world file found. The program to display a single score.
