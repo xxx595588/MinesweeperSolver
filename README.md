@@ -92,7 +92,7 @@ The following data are plotted from 1000 tests per level
 
 ![download](https://user-images.githubusercontent.com/61955371/195501983-9ed7ae29-1903-49d5-ae25-997cf7cdd716.png)
 
-- Time vs. Accuracy
+- Time vs. Level
 
 ![download-1](https://user-images.githubusercontent.com/61955371/195502144-0986f6e6-736e-42d4-b110-4f19be1c39b1.png)
 
