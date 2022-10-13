@@ -83,3 +83,6 @@ Issue the command after `make`:
 - `Operands`:
   * `InputFile`: A path to a valid Minesweeper World file, or folder with `–f`. This operand is optional unless used with `–f` or OutputFile.
   * `OutputFile`: A path to a file where the results will be written. This is optional.
+
+
+## Performance
